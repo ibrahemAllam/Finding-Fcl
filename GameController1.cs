@@ -132,8 +132,8 @@ public class GameController1 : MonoBehaviour {
         CountCorrectGuesses++;
         if(CountCorrectGuesses == GameGuesses )
         {
-            SceneManager.LoadScene("menu");
-            StreamWriter lv = new StreamWriter(Application.dataPath + "/Resources/lv.txt");
+            SceneManager.LoadScene("1");
+            StreamWriter lv = new StreamWriter(Application.dataPath + "/Resources/lv2.txt");
             lv.WriteLine("1");
             lv.Close();
         }

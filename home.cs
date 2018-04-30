@@ -7,9 +7,13 @@ public class home : MonoBehaviour {
 
     public void lv1()
     {
-        SceneManager.LoadScene("Scene_winter");
+        SceneManager.LoadScene("environment");
     }
     public void lv2()
+    {
+        SceneManager.LoadScene("Scene_winter");
+    }
+    public void lv3()
     {
         SceneManager.LoadScene("1");
     }
